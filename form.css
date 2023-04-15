@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+input{
+   width: 300px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@300&display=swap');
+
+
+
+body{      
+    height: 100%;     
+    background-image: linear-gradient(to bottom,black,rgba(0, 0, 0, 0.507));
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;    
+}
+header{
+    background-color: black; 
+    text-align: center;      
+}
+header > h1{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;    
+}
+nav{
+    background-color: black; 
+    margin: auto;   
+    padding-left: 10px;   
+}
+a{   
+    font-family: 'Anton', sans-serif;    
+    text-decoration: none;
+    color:white;  
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;     
+    text-align: center;    
+}
+a:hover{ 
+    background-color: red;
+    border-radius: 5px 5px;
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+main h2,p,iframe,div{
+    font-family: 'Work Sans', sans-serif;
+    background-color: black;
+    width: 70%;    
+    margin: auto;
+    color: white;
+    padding: 10px 0px 10px 10px;    
+}
+.video1{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.top1{
+    width: 10%;
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    border-radius: 80px;
+}
+#com,#com1,#com2{
+    color: red;             
+}
+.p1{
+    color: red;       
+}
+.pefiltu{
+    cursor: pointer;
+}
+img:hover{
+     background-color: green;
+     padding: 40px;
+}
+footer{
+    background-color: green;
+    font-family: 'Work Sans', sans-serif;
+    color: white;   
+    text-align: center;   
+    margin: auto; 
+    font-size: 90%;
+}
